@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="FizyTest.Utils.listeners.TestListener"/>
+    <listener class-name="FizyTest.Utils.reports.ExtentReport"/>
+  </listeners>
+  <test name="C:/Users/siram/Desktop/Fizy(failed)">
+    <classes>
+      <class name="TestCases.TC_001">
+        <methods>
+          <include name="fizyProcessValidationTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_001 -->
+    </classes>
+  </test> <!-- C:/Users/siram/Desktop/Fizy(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
